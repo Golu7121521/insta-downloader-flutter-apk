@@ -23,7 +23,7 @@ jobs:
       - name: 💙 Set up Flutter
         uses: subosito/flutter-action@v2
         with:
-          flutter-version: '3.22.3'  # Version change kar diya hai taaki GAL package crash na ho
+          flutter-version: '3.19.6'  # The Golden stable version for maximum package compatibility
           channel: 'stable'
 
       - name: 🛠️ Fix Android Folder
